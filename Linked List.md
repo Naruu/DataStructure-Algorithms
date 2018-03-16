@@ -21,6 +21,7 @@ sort(sort when inserting)
 <pre><code>typdef struct _linkedList{
   Node* head;
   Node* cur;
+  //node* before;
   int numOfData;
   //int (*comp)(LData d1, LData d2);
 } LinkedList;
