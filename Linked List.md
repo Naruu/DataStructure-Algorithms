@@ -14,5 +14,5 @@ sort(sort when inserting)
 
 
 ### Notes
-Head node points dummy node
-Circular linked list - point tail
+- Head node points dummy node  
+- Circular linked list - point tail
