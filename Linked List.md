@@ -2,6 +2,7 @@
 
 - Array Style
 - Singly
+- Doubly
 - Circular
 
 > Init  
@@ -14,6 +15,7 @@ sort(sort when inserting)
 
 <pre><code>typdef struct _node{
   LData data;
+  //struct _node* pre;
   struct _node* next;
 } Node;
 </code></pre>
@@ -21,7 +23,7 @@ sort(sort when inserting)
 <pre><code>typdef struct _linkedList{
   Node* head;
   Node* cur;
-  //node* before;
+  //Node* tail;
   int numOfData;
   //int (*comp)(LData d1, LData d2);
 } LinkedList;
