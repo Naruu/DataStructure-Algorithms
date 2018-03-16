@@ -12,6 +12,19 @@ remove by position
 remove by data  
 sort(sort when inserting)  
 
+<pre><code>typdef struct _node{
+  LData data;
+  struct _node* next;
+} Node;
+</code></pre>
+
+<pre><code>typdef struct _linkedList{
+  Node* head;
+  Node* cur;
+  int numOfData;
+  //int (*comp)(LData d1, LData d2);
+} LinkedList;
+</code></pre>
 
 ### Notes
 - Head node points dummy node  
